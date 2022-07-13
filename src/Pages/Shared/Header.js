@@ -24,6 +24,7 @@ const Header = () => {
       <li> <Link to='/'>Home</Link> </li>
       <li> <Link to='products'>Products</Link>  </li>
       <li> <Link to='blogs'>Blogs</Link>  </li>
+      <li>{user ? <button className="btn btn-ghost" onClick={logout} >Sign Out</button> : <Link to="/login">Login</Link>}</li>
       </ul>
     </div>
     <a class="btn btn-ghost uppercase font-bold text-xl">Fake Shop</a>

@@ -21,7 +21,7 @@ const SingleProducts = ({product}) => {
     <div className='text-left font-semibold'>
     <h4>Category: {category}</h4>
     <h4>Price: ${price}</h4>
-    <h4>Rating: {rating.rate}</h4>
+    <h4>Rating: {rating?.rate}</h4>
     </div>
     <p>{description}</p>
     <div class="card-actions">
